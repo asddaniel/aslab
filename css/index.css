@@ -1,0 +1,42 @@
+*, ::before, ::after{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+:root{
+    --blue-logo:#002374;
+}
+.blue-custom{
+    color: #00133d;
+}
+.border-blue{
+    border-color: #00133d!important;
+}
+.action-btn:hover{
+    background-color: #00133d!important;
+    transform: translateY(-5px);
+    
+    }
+.action-btn{
+        border-color: #031a4e!important;
+        transition: all 0.5s ease-in-out;
+    }
+.bg-blue-custom{
+    background-color: #00133d;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.back-drop{
+    backdrop-filter: blur(5vh);
+}
+
+.border-radius{
+    border-radius: 2em/3em;
+}
+.bg-light-blue{
+    background-color: #CACCE5;
+}
